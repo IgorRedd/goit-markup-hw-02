@@ -89,7 +89,7 @@ a {
 }
 
 .auth-nav:hover,
-.auth-nav.link:focus {
+.auth-nav:focus {
   color: var(--accent-color);
 }
 
@@ -99,14 +99,26 @@ a {
 }
 
 .d-auth {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
   color: #ffffff;
   opacity: 0.6;
-  cursor: default;
+  cursor: none;
+  letter-spacing: 0.03em;
 }
 
 .address-d {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   color: var(--main-text-color);
-  cursor: default;
+  font-size: 14px;
+  line-height: 1.7;
+  cursor: none;
+  letter-spacing: 0.03em;
 }
 
 .address-d:hover,
@@ -128,16 +140,12 @@ a {
 
 /* text main */
 .bold {
-  font-style: normal;
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .text {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--grey-text-color);
@@ -145,8 +153,6 @@ a {
 
 /* section */
 .section-title {
-  font-style: normal;
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -226,12 +232,14 @@ a {
   margin: 30px;
   color: var(--main-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* footer */
 .down {
   background: #2f303a;
   padding: 60px 0px 20px 0px;
+  cursor: none;
 }
 
 .down-logo {
@@ -241,5 +249,5 @@ a {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  cursor: default;
+  cursor: none;
 }
